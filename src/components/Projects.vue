@@ -76,6 +76,9 @@
             🔨 In Progress
           </div>
         </div>
+        <div class="project-image-preview">
+          <img :src="project.headerImage" :alt="project.title + ' preview'" class="project-preview-img" />
+        </div>
         <h3 class="project-title">{{ project.title }}</h3>
         <p class="project-description">{{ project.description }}</p>
         <div class="project-tags">
@@ -358,6 +361,22 @@ export default {
   font-weight: 600;
   margin-bottom: 0.75rem;
   color: var(--text-primary);
+}
+
+.project-image-preview {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.project-preview-img {
+  max-width: 100%;
+  max-height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
 .project-description {
