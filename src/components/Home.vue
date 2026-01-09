@@ -85,9 +85,10 @@ export default {
   emits: ['view-project'],
   setup(props, { emit }) {
     const skills = [
-      'PHP', 'JavaScript', 'Vue.js', 'React', 'Node.js', 
-      'MySQL', 'MongoDB', 'HTML5', 'CSS3', 'REST API',
-      'Git', 'Responsive Design'
+      'Python', 'JavaScript', 'Vue.js', 'HTML5', 'CSS3',
+      'PHP', 'Laravel', 'MySQL', 'FastAPI', 'Flask',
+      'Docker', 'PowerShell', 'Windows Server', 'MS Intune',
+      'Active Directory', 'API Integration', 'AI/ML'
     ]
 
     const projectStats = computed(() => {
