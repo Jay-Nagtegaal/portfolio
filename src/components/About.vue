@@ -92,19 +92,19 @@
           <h2 class="section-heading">School</h2>
           <div class="content-box">
             <p class="content-text">
-              Ik volg momenteel informatica op de Hogeschool van Amsterdam. Dit is een driejarige studie waarin ik veel heb geleerd over software development,
+              Ik volg momenteel Software Engineering op de Hogeschool van Amsterdam. Dit is een vierjarige studie waarin ik veel heb geleerd over software development,
               systemarchitectuur en het werken met moderne technologieën. De studie is praktijk gericht en we maken veel eigen projecten.
             </p>
             <p class="content-text">
-              Tijdens mijn studie heb ik veel verschillende projecten gemaakt in teams. Enkele van de meest interessante projecten zijn onder andere:
+              Tijdens mijn studie heb ik veel verschillende projecten gemaakt in teams. Hieronder een overzicht van al mijn projecten:
             </p>
             <ul class="projects-list">
-              <li><strong>Dokkie:</strong> Een innovatief project dat helpt bij documentbeheer en organisatie</li>
-              <li><strong>Dipslay:</strong> Een interactieve display-applicatie voor informatiepresentatie</li>
-              <li><strong>Realm of the Kings:</strong> Een immersief game project waarin spelers een koninkrijk besturen en strategie toepassen</li>
-              <li><strong>Webshop:</strong> Een volledige e-commerce webapplicatie gebaseerd op de gameplay mechanica van Realm of the Kings</li>
-              <li><strong>Parlementair Website:</strong> Een informatieve website over het parlement met educatieve inhoud</li>
-              <li><strong>Gen-AI Exposed:</strong> Een onderzoeksproject dat de mogelijkheden en risico's van gegenereerde AI onderzoekt en blootlegt</li>
+              <li><strong>Dokkie:</strong> Een simpel project waarin ik in mijn eerste blok in mijn eentje binnen 8 weken een webpagina heb gemaakt waarin je groepen kan maken om al je geldzaken voor een trip in te delen en daarna eerlijk te verdelen over de groepsleden</li>
+              <li><strong>Dipslay:</strong> Een social platform wat erg lijkt op stack overflow maar dan alleen voor projecten binnenin school. Dit project is ook in 8 weken gemaakt in blok 2. Dit keer in een duo samen met Tobias</li>
+              <li><strong>Realm of the Kings:</strong> Een immersief game project waarin spelers in een koninkrijk spelen waar de princess die tot koningin wordt benoemd wordt gekidnapped. Dit project is in blok 3 gemaakt samen in een groep van 5 personen met Borys, Joas, Matthijs en Salim</li>
+              <li><strong>Webshop:</strong> Een webshop waarin alle games die gemaakt waren in het vorige blok verkocht kunnen worden op de webshop. Dit is in blok 4 gemaakt in een groep van 5</li>
+              <li><strong>Parlementair Website:</strong> Een informatieve website over het parlement met educatieve inhoud gericht op jongeren die nog niet veel snappen van hoe het allemaal werkt met politiek. Dit is in het 2e jaar gemaakt in semester 1. Dit is in een groep van 5 personen gemaakt met Pascal, Daan, Rabee en Youssef</li>
+              <li><strong>Photobooth darktech:</strong> Een photobooth applicatie gemaakt voor een school project Gen-AI Exposed. Dit is in mijn 3e jaar in het 1e semester gemaakt in een groep van 5 personen met Borys, Tom, Senna en Sjoerd</li>
             </ul>
             <p class="content-text">
               Door al deze projecten heb ik veel geleerd over teamwerk, projectmanagement, en hoe je van concept tot deployment gaat.
@@ -122,9 +122,9 @@
         </div>
         <div class="image-container image-right">
           <img
-            src="../../public/images/projects/school.jpeg"
-            height="966"
-            width="946"
+              src="../../public/images/projects/hva.jpeg"
+              height="1054"
+              width="2108"
             alt="School"
             class="section-image"
           />
