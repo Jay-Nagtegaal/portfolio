@@ -5,7 +5,8 @@ node_modules/
 dist/
 dist-ssr/
 
-# Local env files
+# Root index.html should not be committed (use the built one from dist)
+/index.html
 .env
 .env.local
 .env.*.local
