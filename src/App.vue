@@ -4,14 +4,15 @@
       <h1>Mijn Portfolio</h1>
       <nav class="nav">
         <button 
-          @click="navigateTo('home')" 
-          :class="{ active: currentView === 'home' }"
+
+          @click="navigateTo('about')"
+          :class="{ active: currentView === 'about' }"
           class="nav-button"
         >
-          Home
+          Over Mij
         </button>
-        <button 
-          @click="navigateTo('projects')" 
+        <button
+          @click="navigateTo('projects')"
           :class="{ active: currentView === 'projects' || currentView === 'project-detail' }"
           class="nav-button"
         >
@@ -21,11 +22,10 @@
     </header>
     
     <main>
-      <Home 
-        v-if="currentView === 'home'"
-        @view-project="viewProject"
+      <About
+        v-if="currentView === 'about'"
       />
-      <Projects 
+      <Projects
         v-else-if="currentView === 'projects'" 
         @view-project="viewProject"
       />
@@ -40,19 +40,19 @@
 
 <script>
 import { ref } from 'vue'
-import Home from './components/Home.vue'
 import Projects from './components/Projects.vue'
 import ProjectDetail from './components/ProjectDetail.vue'
+import About from './components/About.vue'
 
 export default {
   name: 'App',
   components: {
-    Home,
     Projects,
-    ProjectDetail
+    ProjectDetail,
+    About
   },
   setup() {
-    const currentView = ref('home')
+    const currentView = ref('about')
     const selectedProject = ref(null)
     
     const navigateTo = (view) => {
