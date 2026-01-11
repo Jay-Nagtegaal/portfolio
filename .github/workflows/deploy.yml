@@ -41,7 +41,10 @@ jobs:
           cat dist/index.html
           echo ""
           echo "=== Listing assets ==="
-          ls -lah dist/assets/
+          find dist/assets/ -type f
+          echo ""
+          echo "=== Timestamp ==="
+          date
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
