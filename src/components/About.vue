@@ -3,7 +3,7 @@
     <!-- Large Landing Photo -->
     <section class="hero-section">
       <img
-        src="../../public/images/projects/hero.jpeg"
+        src="/images/projects/hero.jpeg"
         height="1536"
         width="2048"
         alt="Portfolio Hero"
@@ -39,7 +39,7 @@
         </div>
         <div class="image-container image-right">
           <img
-              src="../../public/images/projects/jay.jpeg" height="966" width="946"
+              src="/images/projects/jay.jpeg" height="966" width="946"
             alt="Aboutme"
             class="section-image"
           />
@@ -52,7 +52,7 @@
       <div class="content-wrapper fade-in-right">
         <div class="image-container image-left">
           <img
-            src="../../public/images/projects/ah-internship.jpeg"
+            src="/images/projects/ah-internship.jpeg"
             height="1536"
             width="2048"
             alt="Albert Heijn Internship"
@@ -122,9 +122,9 @@
         </div>
         <div class="image-container image-right">
           <img
-              src="../../public/images/projects/hva.jpeg"
-              height="1054"
-              width="2108"
+            src="/images/projects/hva.jpeg"
+            height="966"
+            width="946"
             alt="School"
             class="section-image"
           />
