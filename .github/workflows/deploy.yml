@@ -32,6 +32,14 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Verify build output
+        run: |
+          echo "=== Checking dist/index.html ==="
+          cat dist/index.html
+          echo ""
+          echo "=== Listing dist files ==="
+          find dist -type f -name "*.js" -o -name "*.css" | head -20
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
