@@ -4,7 +4,6 @@
       <h1>Mijn Portfolio</h1>
       <nav class="nav">
         <button 
-
           @click="navigateTo('about')"
           :class="{ active: currentView === 'about' }"
           class="nav-button"
@@ -26,7 +25,7 @@
         v-if="currentView === 'about'"
       />
       <Projects
-        v-else-if="currentView === 'projects'" 
+        v-else-if="currentView === 'projects'"
         @view-project="viewProject"
       />
       <ProjectDetail 
